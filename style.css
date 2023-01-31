@@ -1,0 +1,171 @@
+.wrapper{
+    align-items: center;
+    color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    margin: 190px;   
+}
+.box1, .box2, .box3{
+    width: 290px;
+    height: 500px;
+    padding: 50px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.title{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.box1{
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    background-color:#E28425 ;
+}
+.box2{
+    background-color: #016871;
+}
+.box3{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color:#00403F ;
+}
+.button-one, .button-two, .button-three{
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 23px;
+    width: 135px;
+    height: 40px; 
+    margin-top: 12px;
+}
+.button-one{
+    color:#E28425;
+    margin: 120px 6px;
+    
+}
+.button-two{
+    color:#016871;
+    margin: 117px 6px;
+}
+.button-three{
+    color:#00403F;
+    margin: 116px 6px;
+}
+/*********** Mobile  375px  ********************/
+@media screen and (max-width: 375px) {
+    .wrapper{
+        margin: 10;
+        padding: 10;
+        display: block;
+        margin: 19px;
+        font-size: 9px;
+        font-family: "Lexend Deca, sans-serif";
+    }
+    .title{
+        font-size: 14px;
+    }
+    .box1, .box2, .box3{
+        justify-content: center;
+        font-size: 14px;
+        width: auto;
+        height: 240px;
+    }
+    .box1{
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 0px;
+    }
+    .box3{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 12px;
+    }
+    .button-one, .button-two, .button-three{
+        margin-top:52px;
+    }
+}   
+/************ 376px - Tablets   ********************/
+@media screen and (min-width: 376px) {
+    .wrapper{
+        display: block;
+        margin-top: 170px;
+    }
+    .box1, .box2, .box3{
+        width: 100%;
+        padding: 28px;
+        font-size: 20px;
+    }
+    .title{
+        font-size: 26px;
+    }
+    .button-one{
+        margin-top: 54px;
+        width: 118px;
+        left: 9px;
+    }
+    .button-two{
+        margin-top: 9px;
+        width: 118px;
+        left: 9px;
+    }
+    .button-three{
+        margin-top:28px;
+        width: 118px;
+    }
+    .box1{
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 0px;
+    }
+    .box3{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 12px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .wrapper{
+        display: flex;
+        margin-top: 170px;
+    }
+    .box1{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+    
+    }
+    .box2{
+        background-color: #016871;
+    }
+    .box3{
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 0;
+    }
+    .button-one{
+        margin-top: 112px;
+    }
+    .button-two{
+        margin-top: 110px;
+    }
+    .button-three{
+        margin-top: 108px;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .wrapper{
+        align-items: center;
+        color: #F2F2F2;
+        display: flex;
+        justify-content: center;
+        margin: 190px;   
+    }
+    .box1, .box2, .box3{
+        width: 290px;
+        height: 500px;
+        padding: 50px;
+        font-size: 25px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+    .title{
+        text-transform: uppercase;
+        font-size: 35px;
+    }
+}
